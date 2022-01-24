@@ -1,6 +1,11 @@
 package com.peisia.gym.display;
 
+import com.peisia.gym.Gym;
+
 public class Title {
-	public static final String VERSION = "v0.1.0";
-	public static final String TITLE = "*** 고양이헬스장 관리 프로그램 " + VERSION + " ***";
+	
+	public static final String TITLE = 
+			"****************************************************************\n" +
+			"********         고양이 헬스장 관리 프로그램 " + Gym.VERSION + "  	        ********\n" +
+			"****************************************************************";
 }

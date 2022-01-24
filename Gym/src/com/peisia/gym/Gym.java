@@ -12,16 +12,14 @@ import com.peisia.gym.proc.MenuMemberList;
 import com.peisia.gym.proc.MenuMemberReg;
 
 public class Gym {
+	public static final String VERSION = "v0.2.0";
+	
 	void proc() {
 		// 회원정보 입력
 		ArrayList<Member> members = new ArrayList<Member>();
-		members.add(new Member("홍길동", "010-1234-5678", "남자"));
-		members.add(new Member("이순신", "010-1234-5678", "남자"));
-		members.add(new Member("강감찬", "010-1234-5678", "남자"));
-		members.add(new Member("정약용", "010-1234-5678", "남자"));
-		members.add(new Member("임꺽정", "010-1234-5678", "남자"));
-		members.add(new Member("이이", "010-1234-5678", "남자"));
-		members.add(new Member("이성계", "010-1234-5678", "남자"));
+		members.add(new Member(1,"홍길동", "010-1234-5678", "남자"));
+		members.add(new Member(2,"이순신", "010-1234-5678", "남자"));
+		members.add(new Member(7,"이성계", "010-1234-5678", "남자"));
 
 		System.out.println(Title.TITLE);
 

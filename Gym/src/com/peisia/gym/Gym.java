@@ -12,7 +12,7 @@ import com.peisia.gym.proc.MenuMemberList;
 import com.peisia.gym.proc.MenuMemberReg;
 
 public class Gym {
-	public static final String VERSION = "v0.2.0";
+	public static final String VERSION = "v0.3.0";
 	
 	void proc() {
 		// 회원정보 입력
